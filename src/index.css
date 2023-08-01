@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar_parent  {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Rose
+{
+  color:deeppink;
+}
+
+.Navbar_2
+{
+margin-top:20px;
+}
+
+.class_button_2
+{
+  background-color:deeppink;
+  border-radius: 5px;
+  margin-left:20px;
+}
+
+.class_button_1
+{
+  border-radius: 5px;
+}
+
+.class_button_1:hover,.class_button_2:hover{
+  color:slategray;
+  background-color: aqua;
+}
+
+.content
+{
+  position:absolute;
+   right:60%; 
+  /* text-align: left; */
+}
+.coloring
+{
+  color:deeppink;
+}
+
+.line_label
+{
+  border:1px solid black;
+  width:900px;
+  height:0px;
+  margin-left:160px;
+}

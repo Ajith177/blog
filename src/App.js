@@ -1,25 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
+import content from './content';
+// import './Navbar';
+import { render } from '@testing-library/react';
+import Navbar from './Navbar';
+import Content from './content'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <Navbar/>
+      <Content/>
     </div>
   );
 }
 
-export default App;
+
+export default App
+
+// function MyApp(){
+//   return (
+//     <div>
+//     <h2> Welcome to my app</h2>
+//     <button>submit</button>
+//     </div>
+//   )
+// };
+
+
