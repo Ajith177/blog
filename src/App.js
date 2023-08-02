@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import content from './content';
+import FetchAPI from './fetch';
 // import './Navbar';
 import { render } from '@testing-library/react';
 import Navbar from './Navbar';
@@ -12,6 +13,7 @@ function App() {
       
       <Navbar/>
       <Content/>
+      <FetchAPI/>
     </div>
   );
 }
@@ -19,13 +21,6 @@ function App() {
 
 export default App
 
-// function MyApp(){
-//   return (
-//     <div>
-//     <h2> Welcome to my app</h2>
-//     <button>submit</button>
-//     </div>
-//   )
-// };
+
 
 
